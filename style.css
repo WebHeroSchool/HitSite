@@ -1,0 +1,12 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo, .title {
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+}
+
+.menu_item {
+	font-weight: 500;
+}
