@@ -1,14 +1,17 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+
 .wrapper {
 margin: 0 auto;
 width: 80%;
 }
+
 .logo__text, .main-content__title {
 	font-family: 'PT Serif', serif;
 	font-weight: bold;
 }
+
 .menu__item { 
   font-weight: 500;
 }
@@ -16,7 +19,6 @@ width: 80%;
 .header {
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .logo__text {
@@ -39,15 +41,17 @@ padding: 0 13px;
 .main-section {
 	display: flex;
 	justify-content: space-between;
-
 }
+
 .main-content__title {
 	margin-top: 246px;
 	margin-bottom: 40px;
 }
+
 .main-content__description {
 margin-bottom: 40px;
 }
+
 .main-content__button {
 	padding: 18px 21px;
 }
