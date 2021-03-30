@@ -1,26 +1,26 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+
 .wrapper {
 margin: 0 auto;
 width: 80%;
 }
-.logo__text, .main-content__title {
-	font-family: 'PT Serif', serif;
-	font-weight: bold;
+
+.logo {
+width: 190px;
+height: 35px;
+background-image: url(logo.svg);
 }
+
 .menu__item { 
   font-weight: 500;
 }
 
 .header {
+	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
-
-}
-
-.logo__text {
-	padding: 40px 0;
 }
 
 .menu {
@@ -41,13 +41,18 @@ padding: 0 13px;
 	justify-content: space-between;
 
 }
+
 .main-content__title {
 	margin-top: 246px;
 	margin-bottom: 40px;
+	font-family: pt_serifregular, arial, helvetica, sans-serif;
+	font-weight: bold;
 }
+
 .main-content__description {
 margin-bottom: 40px;
 }
+
 .main-content__button {
 	padding: 18px 21px;
 }
