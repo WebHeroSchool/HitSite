@@ -1,10 +1,62 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+
+.wrapper {
+margin: 0 auto;
+width: 80%;
+}
+
 .logo__text, .main-content__title {
 	font-family: 'PT Serif', serif;
 	font-weight: bold;
 }
+
 .menu__item { 
   font-weight: 500;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo__text {
+	padding: 40px 0;
+}
+
+.menu {
+	display: flex;	
+	align-items: center;	
+}
+
+.menu__item {
+padding: 0 13px;
+}
+
+.menu__item:last-child {
+	padding-right: 0;
+}
+
+.main-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-content__title {
+	margin-top: 246px;
+	margin-bottom: 40px;
+}
+
+.main-content__description {
+margin-bottom: 40px;
+}
+
+.main-content__button {
+	padding: 18px 21px;
+}
+
+.image-content__image {
+	margin-top: 16%;	
+	margin-bottom: 17%;	
 }
