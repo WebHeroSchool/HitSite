@@ -3,35 +3,30 @@ body {
 }
 
 .wrapper {
-margin: 0 auto;
-width: 80%;
+	margin: 0 auto;
+	width: 80%;
 }
 
-.logo__text, .main-content__title {
-	font-family: 'PT Serif', serif;
-	font-weight: bold;
-}
-
-.menu__item { 
-  font-weight: 500;
+.logo {
+	width: 190px;
+	height: 35px;
+	background-image: url(img/logo.svg);
 }
 
 .header {
+	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
 }
-
-.logo__text {
-	padding: 40px 0;
-}
-
+  
 .menu {
 	display: flex;	
 	align-items: center;	
 }
 
 .menu__item {
-padding: 0 13px;
+	font-weight: 500;
+  padding: 0 13px;
 }
 
 .menu__item:last-child {
@@ -46,10 +41,12 @@ padding: 0 13px;
 .main-content__title {
 	margin-top: 246px;
 	margin-bottom: 40px;
+	font-family: pt_serifregular, arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .main-content__description {
-margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .main-content__button {
