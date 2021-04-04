@@ -34,7 +34,7 @@
 }
 
 .menu__item:nth-child(-n+2) {
-  margin-right:25px;
+  margin-right: 25px;
 }
 
 .menu__item::after {
@@ -73,7 +73,7 @@
   background-color: #0056EC;
 }
 
-.menu__item:hover::after, 
+.menu__item:hover::after,
 .menu__item_active::after {
   opacity: 1;
 }
@@ -86,7 +86,7 @@
 .main {
   padding-top: 208px;
   padding-right: 60%;
-  padding-bottom: 130px; 
+  padding-bottom: 130px;
   background: top 132px right no-repeat url(img/img.svg);
 }
 
@@ -105,16 +105,14 @@
 }
 
 .main__title-text_highlight {
-  background-color: #ECF3FF; 
-  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
 }
-
 
 .main__button {
   text-decoration: none;
   display: inline-block;
   padding: 19px 35px 17px 20px;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   color: white;
   font: 500 18px/22px 'Roboto', sans-serif;
