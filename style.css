@@ -86,8 +86,9 @@
 .main {
   padding-top: 208px;
   padding-right: 60%;
-  padding-bottom: 130px;
+  padding-bottom: 136px;
   background: top 132px right no-repeat url(img/img.svg);
+  margin-bottom: 133px;
 }
 
 .main__title {
@@ -121,4 +122,21 @@
 
 .main__button:hover {
   opacity: .5;
+}
+
+.circles {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.circles__circle {
+	width: 8px;
+	height: 8px;
+	background: #c8dbfb;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+
+.circles__circle:nth-child(2) {
+	margin: 0 4px;
 }
