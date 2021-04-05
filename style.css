@@ -92,9 +92,9 @@
 
 .main__title {
   width: 567px;
-  letter-spacing: 2.1px;
+  letter-spacing: -0.2px; 
   margin: 0 0 37px 0;
-  font: bold 66.5px/87px pt_serifregular, arial, helvetica, sans-serif;
+  font: bold 66.5px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
@@ -122,4 +122,7 @@
 .main__button:hover {
   opacity: .5;
 }
+
+
+
 
