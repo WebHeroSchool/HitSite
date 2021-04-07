@@ -148,36 +148,36 @@
   }
 
   .header {
-	  margin-bottom: 4px;
-	  padding: 24px 0;
+    margin-bottom: 4px;
+    padding: 24px 0;
   }
 
   .logo {
-	  background: no-repeat url(img/logo.png);
+  	background: no-repeat url(img/logo.png);
   }
 
   .main {
-	  text-align: center;
-	  padding: 74% 0 0;
-	  background-size: 74%;
-	  background-position: top center;
-   }
+  	text-align: center;
+  	padding: 74% 0 0;
+  	background-size: 74%;
+  	background-position: top center;
+  }
 
   .main__title {
-	  width: auto;
-	  margin-bottom: 44px;
-	  font: bold 30px/39px pt_serifregular, arial, helvetica, sans-serif;
+  	width: auto;
+  	margin-bottom: 44px;
+  	font: bold 30px/39px pt_serifregular, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
- 	  width: auto;
- 	  font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+  	width: auto;
+  	font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
-	  padding: 14px 25px 13px 16px;
-	  background: #0056EC;
-	  font: 500 14px/15px 'Roboto', sans-serif;
+  	padding: 14px 25px 13px 16px;
+  	background: #0056EC;
+  	font: 500 14px/15px 'Roboto', sans-serif;
   }
 }
 
@@ -187,26 +187,26 @@
 	}
 
   .header {
-	  padding-bottom: 0;
-	  padding-top: 40px;
-	  margin-bottom: 127px;
+  	padding-bottom: 0;
+  	padding-top: 40px;
+  	margin-bottom: 127px;
   }
 
-  .menu__item { 
-    margin-right: 27px;
-    font: 500 16px/14px 'Roboto', sans-serif;
+  .menu__item {
+  	margin-right: 27px;
+  	font: 500 16px/14px 'Roboto', sans-serif;
   }
 
   .menu__item:nth-child(-n+2) {
-    margin-right: 24px;
+  	margin-right: 24px;
   }
 
   .main {
-	  padding-top: 17px;
-	  padding-bottom: 12%;
-	  background-size: 55%;
-	  background-position: right 0 top 0;
-    margin-bottom: 88px;
+  	padding-top: 17px;
+  	padding-bottom: 12%;
+  	background-size: 55%;
+  	background-position: right 0 top 0;
+  	margin-bottom: 88px;
    }
 
   .main__title {
@@ -246,7 +246,7 @@
   }
 
   .menu__item:nth-child(-n+2) {
-    margin-right: 24px;
+  	margin-right: 24px;
   }
 
   .main {
