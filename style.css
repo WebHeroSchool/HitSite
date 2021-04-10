@@ -182,6 +182,23 @@
   top: 8px;
 }
 
+.menu__box {
+  display: flex;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 176px 0;
+  list-style: none;
+  background-color: #fff;
+  transition-duration: 0.25s;
+}
+
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
@@ -199,23 +216,6 @@
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
-}
-
-.menu__box {
-  display: flex;
-  position: fixed;
-  top: 0;
-  visibility: hidden;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 176px 0;
-  list-style: none;
-  background-color: #fff;
-  transition-duration: .25s;
 }
 
 .menu__box__item {
