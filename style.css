@@ -177,6 +177,7 @@
   content: '';
   top: -8px;
 }
+
 .menu__btn > span::after {
   content: '';
   top: 8px;
@@ -224,7 +225,7 @@
   color: #333;
   font: 600 30px/34px 'Roboto', sans-serif;
   text-decoration: none;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .menu__box__item:hover {
@@ -329,7 +330,7 @@
   }
 
   .main__title-text_highlight {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(236,243,255,1) 15% 93%, rgba(255,255,255,1) 93%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, rgba(236, 243, 255, 1) 15% 93%, rgba(255, 255, 255, 1) 93%);
   }
 
   .main__subtitle {
