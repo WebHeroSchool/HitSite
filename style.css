@@ -231,7 +231,7 @@
   background-color: #cfd8dc;
 }
 
-@media (max-width: 768px) {/* Телефон*/
+@media (max-width: 768px) {
   .wrapper {
     width: 90%;
   }
@@ -288,7 +288,7 @@
   }
 }
 
-@media (min-width: 1246px) and (max-width: 1585px) {   /* 1366*/
+@media (min-width: 1246px) and (max-width: 1585px) {
   .wrapper {
     width: 69%;
   }
@@ -330,7 +330,7 @@
 
   .main__title-text_highlight {
     background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(236,243,255,1) 15% 93%, rgba(255,255,255,1) 93%);
-}
+  }
 
   .main__subtitle {
     width: 367px;
@@ -391,7 +391,7 @@
     margin-bottom: 41px;
     font: 500 18px/22px 'Roboto', sans-serif;
     letter-spacing: 0.1px;
-    padding-left: 1px; 
+    padding-left: 1px;
   }
 
   .main__button {
