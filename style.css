@@ -226,12 +226,16 @@
   font: 600 30px/34px 'Roboto', sans-serif;
   text-decoration: none;
   transition-duration: 0.25s;
-  margin-right: 1px;
+  margin-right: 4px;
   letter-spacing: 0.1px; 
 }
 
-.menu__box__item:last-child {
-margin-right: 50px;
+.menu__box li:last-child .menu__box__item {
+  margin-right: 7px;
+}
+
+.menu__box li:nth-child(-n+2) .menu__box__item {
+  margin-right: 3px;
 }
 
 .menu__box__item:hover {
