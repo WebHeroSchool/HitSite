@@ -227,7 +227,11 @@
   text-decoration: none;
   transition-duration: 0.25s;
   margin-right: 4px;
-  letter-spacing: 0.1px; 
+  letter-spacing: 0.1px;
+}
+
+.menu__box__item:hover {
+  background-color: #cfd8dc;
 }
 
 .menu__box li:last-child .menu__box__item {
