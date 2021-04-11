@@ -230,6 +230,10 @@
   letter-spacing: 0.1px; 
 }
 
+.menu__box__item:last-child {
+margin-right: 50px;
+}
+
 .menu__box__item:hover {
   background-color: #cfd8dc;
 }
