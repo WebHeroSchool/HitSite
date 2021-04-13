@@ -137,7 +137,7 @@
   50% {
     transform: scale(1);
   }
-  
+
   to {
     transform: scale(0.9);
   }
