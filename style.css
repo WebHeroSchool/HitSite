@@ -120,12 +120,27 @@
   background: #0056ec;
   border-radius: 4px;
   color: white;
-  font: 500 18px/22px 'Roboto', sans-serif;
+  font: 500 18px/22px "Roboto", sans-serif;
   transform: opacity 0.5s;
+  animation: main__button 2s infinite linear;
 }
 
 .main__button:hover {
-  opacity: .5;
+  opacity: 0.5;
+}
+
+@keyframes main__button {
+  from {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.9);
+  }
 }
 
 .circles {
