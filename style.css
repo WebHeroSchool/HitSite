@@ -326,8 +326,7 @@
   }
 
   .header {
-    padding-bottom: 0;
-    padding-top: 33px;
+    padding: 33px 0 0 0;
     margin-bottom: 120px;
   }
 
@@ -366,10 +365,8 @@
 
   .main__subtitle {
     width: 367px;
-    margin: 0;
     letter-spacing: 0.1px;
-    margin-right: 10px;
-    margin-bottom: 42px;
+    margin: 0 10px 42px 0;
     font: 500 18px/21px 'Roboto', sans-serif;
   }
 
@@ -388,8 +385,7 @@
   }
 
   .header {
-    padding-bottom: 0;
-    padding-top: 33px;
+    padding: 33px 0 0 0;
     margin-bottom: 121px;
   }
 
@@ -404,8 +400,7 @@
   }
 
   .main {
-    padding-top: 16px;
-    padding-bottom: 59px;
+    padding:16px 0 59px 0;
     background-size: 514px;
     background-position: right 0 top 0;
     margin-bottom: 88px;
@@ -420,7 +415,6 @@
 
   .main__subtitle {
     width: 367px;
-    margin-bottom: 41px;
     font: 500 18px/22px 'Roboto', sans-serif;
     letter-spacing: 0.1px;
     padding-left: 1px;
@@ -472,10 +466,7 @@
 
   .main__subtitle {
     width: 367px;
-    margin-bottom: 41px;
     font: 500 17px/22px 'Roboto', sans-serif;
-    letter-spacing: 0.1px;
-    padding-left: 1px;
   }
 
   .main__button {
